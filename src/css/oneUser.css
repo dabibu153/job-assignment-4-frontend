@@ -1,0 +1,50 @@
+.singleuserBlock {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.userName {
+  font-size: 25px;
+  font-weight: 800;
+  color: #25cdd4;
+  width: 100%;
+  max-width: 250px;
+  background-color: #34378b;
+  border-radius: 10px;
+  padding: 15px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  cursor: default;
+}
+.userName:hover {
+  background-color: #25cdd4;
+  color: #34378b;
+}
+
+.activityButton {
+  background-color: #34378b;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  color: #25cdd4;
+}
+.activityButton:hover {
+  background-color: #25cdd4;
+  color: #34378b;
+}
+
+.lastActive {
+  background-color: #34378b;
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: #25cdd4;
+  height: 20px;
+}

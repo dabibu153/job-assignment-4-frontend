@@ -1,0 +1,17 @@
+.header1 {
+  font-size: 35px;
+  font-weight: 800;
+  color: white;
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: default;
+}
+
+.listBlock {
+  height: 100vh;
+  background-color: #2c2f82;
+  border-radius: 20px;
+  padding-left: 40px;
+  padding-top: 20px;
+}

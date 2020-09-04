@@ -1,0 +1,173 @@
+.activityBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.header2 {
+  font-size: 35px;
+  font-weight: 800;
+  color: white;
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: default;
+}
+
+.activityDataBlock {
+  height: 100vh;
+  background-color: #2c2f82;
+  border-radius: 20px;
+  padding-top: 20px;
+}
+
+.activeUserName {
+  border-radius: 10px;
+  color: #25cdd4;
+  font-size: 25px;
+  font-weight: 700;
+  background-color: #34378b;
+  padding: 10px;
+  width: fit-content;
+  cursor: default;
+  margin-left: 80px;
+}
+.activeUserName:hover {
+  background-color: #25cdd4;
+  color: #34378b;
+}
+
+.highlight {
+  background-color: #42cd9b !important;
+}
+.react-calendar {
+  color: #25cdd4;
+  background: #34378b !important;
+  width: 80% !important;
+  border: none !important;
+}
+
+.react-calendar__navigation button {
+  color: #f7bfdb;
+}
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus {
+  background-color: #2c2f82 !important;
+  border-radius: 10px !important;
+}
+
+.react-calendar__navigation button[disabled] {
+  background-color: #34378b !important;
+}
+
+.react-calendar__month-view__days__day--weekend {
+  color: white !important;
+}
+
+.react-calendar__tile {
+  max-width: 90% !important;
+  text-align: center !important;
+  padding: 0.75em 0.5em !important;
+  color: white;
+  border-radius: 10px !important;
+}
+.react-calendar__tile:hover {
+  background: #2c2f82 !important;
+}
+
+.calendar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #34378b;
+}
+
+.activityText {
+  text-align: center;
+  border-radius: 10px;
+  color: #25cdd4;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #34378b;
+  padding: 20px;
+  width: 80%;
+  cursor: default;
+}
+.activityText:hover {
+  background-color: #25cdd4;
+  color: #34378b;
+}
+
+.timeLine {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(52, 55, 139);
+  width: 80%;
+  margin: 20px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.hoursBox {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.switch0 {
+  color: #f7bfdb;
+  height: 80px;
+  background-color: #f7bfdb;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+.switch1 {
+  color: #25cdd4;
+  height: 80px;
+  background-color: #25cdd4;
+  margin-left: 3px;
+  margin-right: 3px;
+  border-radius: 5px;
+}
+
+hr {
+  margin: 12px;
+  width: 100%;
+  border: 1px solid #25cdd4;
+}
+
+.thoursBox {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.thour {
+  text-align: center;
+  font-weight: 700;
+  font-size: 15px;
+  color: #25cdd4;
+}
+
+.headding {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  cursor: default;
+}
+
+.headding:hover {
+  color: #25cdd4;
+}
