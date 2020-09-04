@@ -5,6 +5,7 @@ import { useSelector, useDispatch } from "react-redux";
 import Calendar from "react-calendar";
 import "react-calendar/dist/Calendar.css";
 import moment from "moment";
+import { Link } from "react-router-dom";
 
 function UserActivity(props) {
   const [color, setcolor] = useState(false);
@@ -206,7 +207,12 @@ function UserActivity(props) {
   }, []);
   return (
     <div>
-      <div className="header2">ACTIVITY</div>
+      <div className="header2">
+        <div className="hLeft">ACTIVITY</div>
+        <Link to="/" style={{ textDecoration: "none", cursor: "default" }}>
+          <div className="hRight">BACK TO USERS</div>
+        </Link>
+      </div>
       <div className="activityDataBlock">
         <div className="activeUserName">{activeUser?.real_name}</div>
         <div className="activityBlock">
@@ -229,10 +235,10 @@ function UserActivity(props) {
             ></Calendar>
           </div>
           <div className="activityText">
-            {activity ? activity : "No activity Today"}
+            {activity ? activity : "No activity"}
           </div>
           <div className="timeLine">
-            <div className="headding">TIMELINE</div>
+            <div className="headding">ACTIVE HOURS</div>
             <div className="hoursBox">
               {activehours?.map((x) => (
                 <div className={x == 0 ? "switch0" : "switch1"}>1</div>

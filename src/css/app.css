@@ -11,7 +11,7 @@
   background-color: #34378b;
   height: 90vh;
   width: 50vw;
-  min-width: 700px;
+  width: 700px;
   border-radius: 20px;
   overflow: hidden;
 }
