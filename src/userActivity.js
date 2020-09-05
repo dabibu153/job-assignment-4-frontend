@@ -241,7 +241,7 @@ function UserActivity(props) {
             <div className="headding">ACTIVE HOURS</div>
             <div className="hoursBox">
               {activehours?.map((x) => (
-                <div className={x == 0 ? "switch0" : "switch1"}>1</div>
+                <div className={x == 0 ? "switch0" : "switch1"}></div>
               ))}
             </div>
             <hr />

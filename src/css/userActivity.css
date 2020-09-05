@@ -98,6 +98,14 @@
   background: #2c2f82 !important;
 }
 
+.react-calendar__tile--now {
+  background: #34378b !important;
+}
+.react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now:enabled:focus {
+  background: #34378b !important;
+}
+
 .calendar {
   display: flex;
   flex-direction: column;
